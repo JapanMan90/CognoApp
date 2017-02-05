@@ -1,29 +1,12 @@
 ﻿<Properties StartupConfiguration="{A19109B0-5A3A-44BA-A526-77989697DBDF}|Default">
-  <MonoDevelop.Ide.ItemProperties.CognoApp AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.LGH8111cf4b381" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CognoApp/BitmapHelper.cs">
+  <MonoDevelop.Ide.ItemProperties.CognoApp AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="CognoApp/MainActivity.cs" Line="102" Column="40" />
-      <File FileName="CognoApp/packages.config" Line="1" Column="1" />
-      <File FileName="../../Documents/Folders/AndroidManifest.xml" Line="8" Column="39" />
-      <File FileName="CognoApp/Assets/AboutAssets.txt" Line="1" Column="1" />
-      <File FileName="CognoApp/obj/Debug/android/manifest/AndroidManifest.xml" Line="11" Column="21" />
-      <File FileName="CognoApp/Properties/AndroidManifest.xml" Line="6" Column="2" />
+      <File FileName="CognoApp/MainActivity.cs" Line="117" Column="5" />
       <File FileName="SharedProject/Core.cs" Line="18" Column="59" />
-      <File FileName="CognoApp/Resources/Resource.designer.cs" Line="118" Column="30" />
-      <File FileName="CognoApp/BitmapHelper.cs" Line="2" Column="21" />
+      <File FileName="CognoApp/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="CognoApp/Resources/values/Strings.xml" Line="4" Column="34" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CognoApp" expanded="True">
-            <Node name="CognoApp" expanded="True">
-              <Node name="BitmapHelper.cs" selected="True" />
-            </Node>
-            <Node name="SharedProject" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

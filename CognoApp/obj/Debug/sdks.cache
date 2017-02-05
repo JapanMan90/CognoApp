@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Sdk>
-  <AndroidApiLevel>23</AndroidApiLevel>
-  <AndroidApiLevelName>23</AndroidApiLevelName>
-  <AndroidNdkPath>/Users/brielledavis/Library/Developer/Xamarin/android-ndk/android-ndk-r13b</AndroidNdkPath>
-  <AndroidSdkBuildToolsPath>/Users/brielledavis/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.1</AndroidSdkBuildToolsPath>
-  <AndroidSdkBuildToolsBinPath>/Users/brielledavis/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.1</AndroidSdkBuildToolsBinPath>
-  <AndroidSdkPath>/Users/brielledavis/Library/Developer/Xamarin/android-sdk-macosx</AndroidSdkPath>
+  <AndroidApiLevel>25</AndroidApiLevel>
+  <AndroidApiLevelName>25</AndroidApiLevelName>
+  <AndroidNdkPath>/Users/randyd/Library/Developer/Xamarin/android-ndk/android-ndk-r11c</AndroidNdkPath>
+  <AndroidSdkBuildToolsPath>/Users/randyd/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</AndroidSdkBuildToolsPath>
+  <AndroidSdkBuildToolsBinPath>/Users/randyd/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</AndroidSdkBuildToolsBinPath>
+  <AndroidSdkPath>/Users/randyd/Library/Developer/Xamarin/android-sdk-macosx</AndroidSdkPath>
   <JavaSdkPath>/usr</JavaSdkPath>
   <MonoAndroidBinPath>/Library/Frameworks/Xamarin.Android.framework/Versions/Current/bin</MonoAndroidBinPath>
   <MonoAndroidToolsPath>/Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mandroid</MonoAndroidToolsPath>
   <ReferenceAssemblyPaths>
     <ReferenceAssemblyPath>/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/</ReferenceAssemblyPath>
   </ReferenceAssemblyPaths>
-  <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
-  <ZipAlignPath>/Users/brielledavis/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.1</ZipAlignPath>
+  <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+  <ZipAlignPath>/Users/randyd/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</ZipAlignPath>
   <MonoAndroidIncludePath />
-  <SupportedApiLevel>23</SupportedApiLevel>
+  <SupportedApiLevel>24</SupportedApiLevel>
   <AndroidSequencePointsMode>None</AndroidSequencePointsMode>
 </Sdk>

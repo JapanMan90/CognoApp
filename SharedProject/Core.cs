@@ -4,8 +4,10 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-
+using System.Text;
+using System.Globalization;
 namespace SharedProject
+
 {
 	public class Core
 	{
@@ -24,6 +26,7 @@ namespace SharedProject
 
 			return emotionResults;
 		}
+
 		//Average happiness calculation in case of multiple people
 		public static async Task<float> GetAverageHappinessScore(Stream stream)
 		{
@@ -38,16 +41,50 @@ namespace SharedProject
 			return score / emotionResults.Count();
 		}
 
+		// emoji parser
+		public static string ParseUnicodeHex(string hex)
+		{
+			var sb = new StringBuilder();
+			for (int i = 0; i < hex.Length; i += 4)
+			{
+				string temp = hex.Substring(i, 4);
+				char character = (char)Convert.ToInt16(temp, 16);
+				sb.Append(character);
+			}
+			return sb.ToString();
+		}
+
+		// The magic for the happ
 		public static string GetHappinessMessage(float score)
 		{
+			float happy = 70;
+			float sad = 20;
+
 			score = score * 100;
-			double result = Math.Round(score, 2);
 
-			if (score >= 50)
-				return result + " % :-)";
+
+			float result = (float)Math.Round(score, 1, MidpointRounding.AwayFromZero);
+			 
+
+			if (score >= happy)
+			{
+				// happy happiness
+				string emotion = ParseUnicodeHex("d83dde03");
+				return result + emotion;
+			}
+			if (score > sad && score < happy)
+			{
+				//stright face
+				string emotion = ParseUnicodeHex("d83dde10"); 
+				return result + emotion;
+			}
 			else
-				return result + "% :-(";
+			{
+				// sad
+				string emotion = ParseUnicodeHex("d83dde22");
+				return result + emotion;
+			}
 		}
-	}
 
+	}
 }
